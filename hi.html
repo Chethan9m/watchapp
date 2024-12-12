@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Manoj PM">
+    <meta name="description" content="HTML Webpage showcasing all major HTML tags">
+    <title>HTML Tag Showcase</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        header, footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+        nav a {
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to HTML Tag Showcase</h1>
+        <nav>
+            <a href="#introduction">Introduction</a> |
+            <a href="#formatting">Formatting</a> |
+            <a href="#media">Media</a> |
+            <a href="#form">Forms</a> |
+            <a href="#table">Tables</a>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction">
+        <h2>Introduction</h2>
+        <p>This webpage demonstrates the use of <strong>all major HTML tags</strong> to help you understand their structure and usage.</p>
+        <blockquote>
+            "HTML is the standard markup language for creating web pages." - W3C
+        </blockquote>
+        <p>Here's an <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">MDN documentation</a> link for further learning.</p>
+    </section>
+
+    <!-- Formatting Section -->
+    <section id="formatting">
+        <h2>Text Formatting</h2>
+        <p><em>Italicized text</em> and <strong>bold text</strong></p>
+        <p>This is <del>deleted</del> and <ins>inserted</ins> text.</p>
+        <code>&lt;This is inline code&gt;</code>
+        <pre>
+            function helloWorld() {
+                console.log("Hello, world!");
+            }
+        </pre>
+        <ul>
+            <li>Unordered List Item 1</li>
+            <li>Unordered List Item 2</li>
+        </ul>
+        <ol>
+            <li>Ordered List Item 1</li>
+            <li>Ordered List Item 2</li>
+        </ol>
+    </section>
+
+    <!-- Media Section -->
+    <section id="media">
+        <h2>Media Elements</h2>
+        <img src="https://via.placeholder.com/150" alt="Sample Image">
+        <figure>
+            <figcaption>A sample image with a caption</figcaption>
+        </figure>
+        <audio controls>
+            <source src="sample-audio.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <video width="320" height="240" controls>
+            <source src="sample-video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <!-- Forms Section -->
+    <section id="form">
+        <h2>Forms</h2>
+        <form action="submit.html" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password"><br><br>
+            <fieldset>
+                <legend>Choose your favorite color:</legend>
+                <input type="radio" id="red" name="color" value="red">
+                <label for="red">Red</label><br>
+                <input type="radio" id="blue" name="color" value="blue">
+                <label for="blue">Blue</label><br>
+                <input type="radio" id="green" name="color" value="green">
+                <label for="green">Green</label>
+            </fieldset>
+            <br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <!-- Tables Section -->
+    <section id="table">
+        <h2>Tables</h2>
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Profession</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>John</td>
+                    <td>30</td>
+                    <td>Engineer</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>28</td>
+                    <td>Doctor</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 Manoj PM. All rights reserved.</p>
+    </footer>
+</body>
+</html>
